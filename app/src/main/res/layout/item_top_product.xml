@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="4dp"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvRank"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:text="#1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/primary"
+            android:gravity="center"
+            android:layout_marginEnd="12dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTopProductName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre Producto"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvTopProductDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stock: 20 x L. 50.00"
+                android:textSize="12sp"
+                android:textColor="@color/gray_text" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTopProductValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L. 1,000.00"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/color_entrada" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

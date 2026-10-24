@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inventario Pulpería</string>
+    <string name="tab_products">Productos</string>
+    <string name="tab_movements">Movimientos</string>
+    <string name="tab_summary">Resumen</string>
+
+    <string name="title_products">Gestión de Productos</string>
+    <string name="title_movements">Movimientos de Inventario</string>
+    <string name="title_summary">Resumen del Inventario</string>
+
+    <string name="search_hint">Buscar por nombre o código de barra…</string>
+    <string name="add_product">Nuevo Producto</string>
+    <string name="edit_product">Editar Producto</string>
+    <string name="delete_product">Eliminar Producto</string>
+
+    <string name="label_name">Nombre del producto</string>
+    <string name="label_price">Precio (L.)</string>
+    <string name="label_stock">Stock actual</string>
+    <string name="label_barcode">Código de barra (Manual)</string>
+    <string name="label_min_stock">Stock mínimo para alerta</string>
+
+    <string name="label_movement_type">Tipo de movimiento</string>
+    <string name="type_entrada">ENTRADA (+)</string>
+    <string name="type_salida">SALIDA (-)</string>
+    <string name="label_quantity">Cantidad</string>
+    <string name="btn_register_movement">Registrar Movimiento</string>
+
+    <string name="total_inventory_value">Valor Total del Inventario</string>
+    <string name="top_5_products">Top 5 Productos por Valor</string>
+    <string name="low_stock_alerts">Alertas de Stock Mínimo</string>
+    <string name="no_low_stock_alerts">¡Todo en orden! No hay productos con stock crítico.</string>
+
+    <string name="btn_save">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_delete">Eliminar</string>
+
+    <string name="confirm_delete_title">Confirmar Eliminación</string>
+    <string name="confirm_delete_msg">¿Está seguro de eliminar el producto %s? Esto también eliminará sus movimientos registrados.</string>
+</resources>
